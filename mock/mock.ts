@@ -5,7 +5,7 @@ export const mockData = {
   likeCount: 4,
   publicationTime: "1 месяц назад",
   readingTime: "3 минуты",
-  title: "Как работать с CSS Grid",
+  title: "Как работать с CSS Grid?",
   href: "/",
   img: "/article-img.png",
 };
