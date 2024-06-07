@@ -1,0 +1,41 @@
+.card {
+  min-width: 250px;
+  max-width: 450px;
+  padding: 10px;
+
+  background: var(--white);
+  border: 1px solid var(--grey-light);
+  border-radius: 5px;
+
+  .img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 16px;
+  }
+
+  .header {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 8px;
+
+    .like {
+      margin-left: auto;
+    }
+  }
+
+  .title {
+    margin-bottom: 8px;
+  }
+
+  .description {
+    margin-bottom: 16px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

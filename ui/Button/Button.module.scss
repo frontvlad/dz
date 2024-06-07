@@ -1,0 +1,16 @@
+.button {
+  padding: 14px;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--white);
+  text-align: center;
+
+  background: var(--black);
+  border-radius: 8px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
