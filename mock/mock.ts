@@ -1,5 +1,5 @@
 export const mockData = {
-  category: "Front-end",
+  category: "Front-end.",
   description:
     "Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему сеток в CSS. Гриды подойдут и для верстки основных областей страницы..",
   likeCount: 4,
