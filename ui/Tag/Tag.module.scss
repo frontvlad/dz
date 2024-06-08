@@ -1,0 +1,22 @@
+.tag {
+  display: inline-block;
+}
+
+.normal {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--black-30);
+}
+
+.light {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--black-20);
+}
+
+.bold {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--black-30);
+}
