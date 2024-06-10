@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import React, { FC } from "react";
+
 import styles from "./HTag.module.scss";
 import { HTagProps } from "./HTag.props";
 
@@ -18,11 +19,15 @@ export const HTag: FC<HTagProps> = ({
       );
     case "h2":
       return (
-        <h2 className={clsx(styles.h, styles.h2, className)}>{children}</h2>
+        <h2 className={clsx(styles.h, styles.h2, className)} {...props}>
+          {children}
+        </h2>
       );
     case "h3":
       return (
-        <h3 className={clsx(styles.h, styles.h3, className)}>{children}</h3>
+        <h3 className={clsx(styles.h, styles.h3, className)} {...props}>
+          {children}
+        </h3>
       );
     default:
       return <></>;

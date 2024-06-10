@@ -6,7 +6,7 @@ import { ButtonProps } from "./Button.props";
 
 export const Button: FC<ButtonProps> = ({ children, className, ...props }) => {
   return (
-    <button className={clsx(className, styles.button)} {...props}>
+    <button className={clsx(styles.button, className)} {...props}>
       {children}
     </button>
   );

@@ -13,11 +13,11 @@ export const Tag: FC<TagProps> = ({
   return (
     <div
       className={clsx(
-        styles.tag,
-        className,
         { [styles.normal]: type == "normal" },
         { [styles.light]: type == "light" },
-        { [styles.bold]: type == "bold" }
+        { [styles.bold]: type == "bold" },
+        styles.tag,
+        className
       )}
       {...props}
     >
