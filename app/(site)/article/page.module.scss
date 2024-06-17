@@ -1,0 +1,37 @@
+.page {
+  max-width: 657px;
+  padding: 25px 46px;
+
+  .infoWrapper {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  }
+
+  .img {
+    position: relative;
+    max-width: 687px;
+    height: 440px;
+    text-align: left;
+  }
+
+  .wrapper {
+    margin-bottom: 22px;
+  }
+
+  .likeWrapper {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  }
+
+  .commentList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button {
+    width: 230px;
+  }
+}
