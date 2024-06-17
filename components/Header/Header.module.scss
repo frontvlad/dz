@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+
+  .title {
+    font-size: 40px;
+  }
+
+  .link {
+    font-size: 24px;
+    color: var(--black-30);
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
