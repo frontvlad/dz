@@ -24,21 +24,22 @@ export const ArticleCard: FC<ArticleСardProps> = ({
       <div className={styles.img}>
         <Image alt="article preview" fill objectFit="contain" src={img} />
       </div>
-
-      <div className={styles.header}>
-        <Tag>{category}</Tag>
-        <Tag type="light">{publicationTime}</Tag>
-        <Like className={styles.like} count={likeCount} />
-      </div>
-      <HTag className={styles.title} tag="h3">
-        {title}
-      </HTag>
-      <P className={styles.description} size="s">
-        {description}
-      </P>
-      <div className={styles.footer}>
-        <Tag type="light">{readingTime}</Tag>
-        <Link href={href}>Читать</Link>
+      <div className={styles.wrapper}>
+        <div className={styles.header}>
+          <Tag>{category}</Tag>
+          <Tag type="light">{publicationTime}</Tag>
+          <Like className={styles.like} count={likeCount} />
+        </div>
+        <HTag className={styles.title} tag="h3">
+          {title}
+        </HTag>
+        <P className={styles.description} size="s">
+          {description}
+        </P>
+        <div className={styles.footer}>
+          <Tag type="light">{readingTime}</Tag>
+          <Link href={href}>Читать</Link>
+        </div>
       </div>
     </div>
   );
